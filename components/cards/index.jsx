@@ -107,7 +107,7 @@ const Cards = () => {
          <SwiperSlide>
     <section className="card orange">
       <h2 className="card_title">Calculator</h2>
-      <p className="card_content">Uses data from past projects to provide better delivery Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam itaque autem officiis, quam tenetur, possimus impedit, fugiat odio perferendis explicabo ea commodi harum saepe et repellendus. Omnis earum placeat assumenda?</p>
+      <p className="card_content">Hello Uses data from past projects to provide better delivery Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam itaque autem officiis, quam tenetur, possimus impedit, fugiat odio perferendis explicabo ea commodi harum saepe et repellendus. Omnis earum placeat assumenda?</p>
       <Image className="card_img"  height={50} width={50} src="https://raw.githubusercontent.com/davidsonaguiar/frontendmentor/main/Four%20card%20feature%20section/images/icon-calculator.svg" alt="Calculator"/>
     </section>
     </SwiperSlide>
