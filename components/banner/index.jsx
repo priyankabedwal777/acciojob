@@ -21,7 +21,7 @@ const Herosection = () => {
 //   };
 
   return (
-    <div className='grid grid-cols-1 lg:grid-cols-12 mx-28 gap-14'> 
+    <div className='grid grid-cols-1 lg:grid-cols-12 2xl:mx-24 xl:mx-20 lg:mx-20 md:mx-20 sm:mx-10 mx-5 gap-14'> 
       <div className='col-span-1 lg:col-span-7'>
         <div className='mt-[9rem]'>
           <h1 className='text-[60px] font-bold'>
@@ -64,9 +64,9 @@ const Herosection = () => {
           <form>
           <div className="mb-4 flex justify-center">
   <div className="relative w-full">
-    <i className="fas fa-user absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400">
-       <svg xmlns="http://www.w3.org/2000/svg"  className="fas fa-user absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-       <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+    <i className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-6 h-6">
+       <svg xmlns="http://www.w3.org/2000/svg"  className=" absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+       <path  d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
      </svg>
     </i>
     <input
@@ -141,7 +141,7 @@ const Herosection = () => {
                   type="submit"
                   className="bggradient w-full text-white font-extrabold py-6 px-7 rounded-[0.30rem] focus:outline-none focus:shadow-outline flex justify-center items-center hover:shadow-xl"
                 >
-                 Apply Now For Free  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" /></svg>
+                 Apply Now For Free  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-6 h-6"><path s d="m8.25 4.5 7.5 7.5-7.5 7.5" /></svg>
                 </button>
               </div>
           </form>
