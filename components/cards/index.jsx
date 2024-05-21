@@ -69,6 +69,8 @@ const Cards = () => {
       <Image className="card_img"  height={50} width={50} src="https://raw.githubusercontent.com/davidsonaguiar/frontendmentor/main/Four%20card%20feature%20section/images/icon-team-builder.svg" alt="page-home"/>
     </section>
     </SwiperSlide>
+
+    
     <SwiperSlide>
     <section className="card blue">
     <h2 className="card_title">Supervisor</h2>
