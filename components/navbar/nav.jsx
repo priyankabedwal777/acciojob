@@ -1,9 +1,8 @@
-import React from 'react'
+import React from 'react';
 
 const Nav = () => {
   return (
     <>
-   
     <div>
         <header className='fixed top-0 left-0'>
           <div className="containerd ">
@@ -16,7 +15,7 @@ const Nav = () => {
             <div className='bg-[#2f80ed] rounded coursesnav'>
             <ul>
             <li className="nav-link" style={{ '--i': '.85s' }}>
-                    <a href="#" className='moretextclr'>Courses<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4"><path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" /></svg></a>
+                    <a href="#" className='moretextclr'>Courses<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-4 h-4"><path  d="m19.5 8.25-7.5 7.5-7.5-7.5" /></svg></a>
                     <div className="dropdown">
                       <ul>
                         <li className="dropdown-link">
@@ -54,7 +53,7 @@ const Nav = () => {
                     <a href="#">Refer & Earn</a>
                   </li>
                   <li className="nav-link" style={{ '--i': '1.1s' }}>
-                    <a href="#">More<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4"><path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" /></svg></a>
+                    <a href="#">More<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-4 h-4"><path  d="m19.5 8.25-7.5 7.5-7.5-7.5" /></svg></a>
                     <div className="dropdown">
                       <ul>
                         <li className="dropdown-link">

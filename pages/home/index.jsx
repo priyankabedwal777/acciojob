@@ -4,6 +4,9 @@ import { Inter } from 'next/font/google'
 import Herosection from "@/components/banner";
 import Nav from "@/components/navbar/nav";
 import Batch from "@/components/batch/batch";
+import Testmonial from "@/components/testimonial";
+import Footer from "@/components/footer/footer";
+import Cards from "@/components/cards";
 
 // import Footer from "@/components/footer/footer";
 
@@ -21,8 +24,10 @@ export default function Homeindex() {
     <Batch/>
      <div className="w-[100%]">
       <Herosection/>
+      <Testmonial/>
+      <Cards/>
      </div>
-     {/* <Footer/> */}
+     <Footer/>
     </main>
   );
 }
