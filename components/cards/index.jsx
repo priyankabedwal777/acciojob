@@ -65,12 +65,10 @@ const Cards = () => {
     <SwiperSlide>
     <section className="card red">
     <h2 className="card_title">Supervisor</h2>
-      <p className="card_content">Monitors activity to identify project roadblocks Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum beatae est minima dolor aliquam iusto tempore eos. At quaerat tempora placeat eveniet ea corrupti velit suscipit repudiandae, veniam dolore commodi!</p>
+      <p className="card_content">Monitors activity to identify project roadblocks Lorem ipsum dolor sit amet, jytfg consectetur adipisicing elit. Laborum beatae est minima dolor aliquam iusto tempore eos. At quaerat tempora placeat eveniet ea corrupti velit suscipit repudiandae, veniam dolore commodi!</p>
       <Image className="card_img"  height={50} width={50} src="https://raw.githubusercontent.com/davidsonaguiar/frontendmentor/main/Four%20card%20feature%20section/images/icon-team-builder.svg" alt="page-home"/>
     </section>
     </SwiperSlide>
-
-    
     <SwiperSlide>
     <section className="card blue">
     <h2 className="card_title">Supervisor</h2>
