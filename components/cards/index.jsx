@@ -65,7 +65,7 @@ const Cards = () => {
     <SwiperSlide>
     <section className="card red">
     <h2 className="card_title">Supervisor</h2>
-      <p className="card_content">Monitors activity to identify project roadblocks Lorem ipsum dolor sit amet, jytfg consectetur adipisicing elit. Laborum beatae est minima dolor aliquam iusto tempore eos. At quaerat tempora placeat eveniet ea corrupti velit suscipit repudiandae, veniam dolore commodi!</p>
+      <p className="card_content">Monitors activity to identify project roadblocks Lorem ipsum dolor sit amet, jytfg consectetur adipisicing elit. Laborum beatae est minima dolor aliquam iusto tempore eos. At quaerat tempora placeat eveniet ea corrupti velit suscipit repudiandae.</p>
       <Image className="card_img"  height={50} width={50} src="https://raw.githubusercontent.com/davidsonaguiar/frontendmentor/main/Four%20card%20feature%20section/images/icon-team-builder.svg" alt="page-home"/>
     </section>
     </SwiperSlide>
@@ -79,21 +79,21 @@ const Cards = () => {
          <SwiperSlide>
     <section className="card orange">
     <h2 className="card_title">Supervisor</h2>
-      <p className="card_content">Monitors activity to identify project roadblocks Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id voluptatum sit consequuntur, quae saepe assumenda ipsa aperiam voluptatem? Cupiditate id, similique dolorem sequi sit asperiores fugit tenetur atque aperiam beatae!</p>
+      <p className="card_content">Monitors activity to identify project roadblocks Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id voluptatum sit consequuntur, quae saepe assumenda ipsa aperiam voluptatem? Cupiditate id, similique dolorem sequi sit asperiores!</p>
       <Image className="card_img"  height={50} width={50} src="https://raw.githubusercontent.com/davidsonaguiar/frontendmentor/main/Four%20card%20feature%20section/images/icon-team-builder.svg" alt="page-home"/>
     </section>
     </SwiperSlide>
     <SwiperSlide>
     <section className="card cyan">
     <h2 className="card_title">Supervisor</h2>
-      <p className="card_content">Monitors activity to identify project roadblocks Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem minus magni eligendi neque temporibus non quibusdam doloribus laborum et facilis autem possimus, harum, eaque reprehenderit? Dolor illum cumque iure nemo?</p>
+      <p className="card_content">Monitors activity to identify project roadblocks Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem minus magni eligendi neque temporibus non quibusdam doloribus laborum et facilis autem possimus, harum, eaque repreh?</p>
       <Image className="card_img"  height={50} width={50} src="https://raw.githubusercontent.com/davidsonaguiar/frontendmentor/main/Four%20card%20feature%20section/images/icon-team-builder.svg" alt="page-home"/>
     </section>
     </SwiperSlide>
     <SwiperSlide>
     <section className="card red">
     <h2 className="card_title">Supervisor</h2>
-      <p className="card_content">Monitors activity to identify project roadblocks Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae temporibus possimus distinctio et laborum obcaecati voluptatum magni! Error, totam incidunt, eveniet a saepe vero aut tenetur quibusdam sed maiores fugiat.</p>
+      <p className="card_content">Monitors activity to identify project roadblocks Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae temporibus possimus distinctio et laborum obcaecati voluptatum magni! Error, totam incidunt, eveniet a saepe vero aut tenetur.</p>
       <Image className="card_img"  height={50} width={50} src="https://raw.githubusercontent.com/davidsonaguiar/frontendmentor/main/Four%20card%20feature%20section/images/icon-team-builder.svg" alt="page-home"/>
     </section>
     </SwiperSlide>
@@ -104,10 +104,10 @@ const Cards = () => {
       <Image className="card_img"  height={50} width={50} src="https://raw.githubusercontent.com/davidsonaguiar/frontendmentor/main/Four%20card%20feature%20section/images/icon-team-builder.svg" alt="page-home"/>
     </section>
     </SwiperSlide>
-         <SwiperSlide>
+       <SwiperSlide>
     <section className="card orange">
       <h2 className="card_title">Calculator</h2>
-      <p className="card_content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis sunt eveniet sequi doloribus assumenda expedita, itaque et, voluptas, perferendis accusantium quasi dicta in iste aut veniam tempore similique nostrum eaque enim illo laudantium animi quos ipsum tenetur. Explicabo reiciendis inventore, ut culpa aliquam mollitia nulla! Culpa assumenda natus quidem enim consectetur incidunt, rem, sunt aspernatur labore alias minima animi, dolorum nobis cum? Unde tenetur, dicta ducimus aut aliquam laborum alias quod praesentium possimus omnis ex a minus quos obcaecati assumenda quae? Doloribus deleniti quod rem corporis ducimus cum aut voluptatibus, fugit eius possimus laboriosam cupiditate, dolore minima voluptate nostrum suscipit! Beatae fugiat perferendis commodi quos voluptatem, quibusdam facilis, deleniti quo ab soluta omnis tenetur rem excepturi eveniet. Ea quasi ex illum doloremque dolor est assumenda vitae, facere incidunt adipisci hic pariatur! Porro officiis facilis consequuntur ut harum. Cumque nobis ipsa fuga, in odit blanditiis adipisci quo, a architecto, consequatur libero!</p>
+      <p className="card_content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis sunt eveniet sequi doloribus assumenda expedita, itaque et, voluptas, perferendis accusantium quasi dicta in iste aut veniam tempore similique nostrum eaque enim illo laudantium animi quos ipsum.</p>
       <Image className="card_img"  height={50} width={50} src="https://raw.githubusercontent.com/davidsonaguiar/frontendmentor/main/Four%20card%20feature%20section/images/icon-calculator.svg" alt="Calculator"/>
     </section>
     </SwiperSlide>
