@@ -1,4 +1,6 @@
 import React from 'react';
+import Image from 'next/image';
+import topbarlogo from "../../public/svg/prepsathilogo1.svg"
 
 const Nav = () => {
   return (
@@ -9,7 +11,9 @@ const Nav = () => {
             <input type="checkbox" name="check" id="check" />
             <div className="nav-btn lg:mx-32">
                 <div className="logo-container gap-5">
-              <h3 className="logo">Brand<span>Name</span></h3>
+              <h3 className="logo">
+              <Image src={topbarlogo} alt='topbarlogo' className='h-auto w-52'/>
+              </h3>
             </div>
                 {/* work on it */}
             <div className='bg-[#2f80ed] rounded coursesnav'>

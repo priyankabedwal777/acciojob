@@ -34,7 +34,7 @@ const Testmonial = () => {
    <>
    <div className='2xl:mx-24 xl:mx-20 lg:mx-20 md:mx-20 sm:mx-10 mx-5 mb-16 mt-10'>
     <h4 className='banergradienttext text-xl mb-2'>Student Testimonials</h4>
-      <h1 className='text-[36px] font-bold mb-8'>Don’t just take our word for it, Go <br/> through AccioJob's Student Reviews</h1>
+      <h1 className='text-[36px] font-bold mb-8'>Don’t just take our word for it, Go <br/> through AccioJob's <span className='text-[#2f80ed]'>Student Reviews</span></h1>
       <div className='w-[100%]'>
       <Swiper
         initialSlide={2}
