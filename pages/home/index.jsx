@@ -7,6 +7,8 @@ import Batch from "@/components/batch/batch";
 import Testmonial from "@/components/testimonial";
 import Footer from "@/components/footer/footer";
 import Cards from "@/components/cards";
+import Faqs from "@/components/faqs";
+import Hideshowtabs from "@/components/hideshowtabs";
 
 // import Footer from "@/components/footer/footer";
 
@@ -19,15 +21,20 @@ const inter = Inter({
 export default function Homeindex() {
 
   return (
-    <main className={`${inter.variable}  flex min-h-screen flex-col w-[100%]`}>
+    <>
+     <main className={`${inter.variable}  flex min-h-screen flex-col w-[100%]`}>
     <Nav/>
     <Batch/>
      <div className="w-[100%]">
       <Herosection/>
       <Testmonial/>
       <Cards/>
+      <Faqs/>
+      <Hideshowtabs/>
      </div>
      <Footer/>
     </main>
+    </>
+   
   );
 }

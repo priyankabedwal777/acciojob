@@ -1,5 +1,5 @@
 "use client";
-import React,{useState} from 'react';
+import React from 'react';
 import Image from 'next/image';
 import banerlogo1 from "../../public/svg/banerlogo1.svg";
 import banerlogo2 from "../../public/svg/banerlogo2.svg";
@@ -15,12 +15,9 @@ const stats = [
 ];
 
 const Herosection = () => {
-//   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
-//   const toggleDropdown = () => {
-//     setIsDropdownOpen(!isDropdownOpen);
-//   };
 
   return (
+    <>
     <div className='grid grid-cols-1 lg:grid-cols-12 2xl:mx-24 xl:mx-20 lg:mx-20 md:mx-20 sm:mx-10 mx-5 gap-14'> 
       <div className='col-span-1 lg:col-span-7'>
         <div className='mt-[9rem]'>
@@ -77,56 +74,23 @@ const Herosection = () => {
     />
   </div>
 </div>
-{/* <div className="mb-6 flex justify-center">
-      <div className="relative w-full flex items-center">
-        <input
-          type="tel"
-          id="phoneNumber"
-          className="shadow appearance-none rounded-[0.30rem] w-full py-6 px-12 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-          placeholder="Phone Number"
-        />
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          strokeWidth="1.5"
-          stroke="currentColor"
-          className="w-6 h-6 absolute left-3 top-1/2 transform -translate-y-1/2 cursor-pointer"
-          onClick={toggleDropdown}
-        >
-          <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
-        </svg>
-        {isDropdownOpen && (
-          <select
-            id="countryCode"
-            className="absolute left-12 top-1/2 transform -translate-y-1/2 bg-white border border-gray-300 rounded-[0.30rem] py-2 px-4 shadow-lg"
-            style={{ zIndex: 10 }}
-          >
-            <option value="+1">+1 United States</option>
-            <option value="+44">+44 United Kingdom</option>
-            <option value="+91">+91 India</option>
-            <option value="+61">+61 Australia</option>
-            <option value="+81">+81 Japan</option>
-          </select>
-        )}
-      </div>
-    </div> */}
+{/* webpack.js?v=1716407006689:508 Warning: Received `true` for a non-boolean attribute `s`. console error */}
     <div className="mb-6 flex justify-center">
   <div className="relative w-full flex items-center">
     <select
       id="countryCode"
       className="shadow appearance-none rounded-[0.30rem] py-6 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
     >
-      <option value="+1">+1</option>    {/* United States */}
-      <option value="+44">+44</option>  {/* United Kingdom */}
-      <option value="+91">+91</option>  {/* India */}
-      <option value="+61">+61</option>  {/* Australia */}
-      <option value="+81">+81</option>  {/* Japan */}
-      <option value="+49">+49</option>  {/* Germany */}
-      <option value="+33">+33</option>  {/* France */}
-      <option value="+34">+34</option>  {/* Spain */}
-      <option value="+39">+39</option>  {/* Italy */}
-      <option value="+86">+86</option>  {/* China */}
+      <option value="+1">+1</option>  
+      <option value="+44">+44</option>
+      <option value="+91">+91</option>  
+      <option value="+61">+61</option>  
+      <option value="+81">+81</option>  
+      <option value="+49">+49</option>  
+      <option value="+33">+33</option>  
+      <option value="+34">+34</option>  
+      <option value="+39">+39</option>
+      <option value="+86">+86</option> 
     </select>
     <input
       type="tel"
@@ -134,14 +98,14 @@ const Herosection = () => {
       className="shadow appearance-none rounded-[0.30rem] w-full py-6 px-7 text-gray-700 leading-tight focus:outline-none focus:shadow-outline ml-2"
       placeholder="Phone Number"
     />
-  </div>
-</div>
+      </div>
+    </div>
               <div className="mt-14">
                 <button
                   type="submit"
                   className="bggradient w-full text-white font-extrabold py-6 px-7 rounded-[0.30rem] focus:outline-none focus:shadow-outline flex justify-center items-center hover:shadow-xl"
                 >
-                 Apply Now For Free  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-6 h-6"><path s d="m8.25 4.5 7.5 7.5-7.5 7.5" /></svg>
+                 Apply Now For Free  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-6 h-6"><path d="m8.25 4.5 7.5 7.5-7.5 7.5" /></svg>
                 </button>
               </div>
           </form>
@@ -150,6 +114,8 @@ const Herosection = () => {
         </div>
       </div>
     </div>
+    </>
+    
   );
 }
 
