@@ -9,6 +9,7 @@ import Footer from "@/components/footer/footer";
 import Cards from "@/components/cards";
 import Faqs from "@/components/faqs";
 import Hideshowtabs from "@/components/hideshowtabs";
+import Testimonials from "@/components/testimonial/testimonials";
 
 // import Footer from "@/components/footer/footer";
 
@@ -27,6 +28,7 @@ export default function Homeindex() {
     <Batch/>
      <div className="w-[100%]">
       <Herosection/>
+      {/* <Testimonials/> */}
       <Testmonial/>
       <Cards/>
       <Faqs/>
