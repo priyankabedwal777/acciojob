@@ -10,8 +10,6 @@
     margin: 0;
     box-sizing: border-box;
   }
-
-  
   
 
 .bodysize{
@@ -190,7 +188,7 @@ header {
 }
 
 .logo {
-  color: #000;
+  /* color: #000; */
   font-size: 1.1rem;
   font-weight: 600;
   letter-spacing: 2px;
@@ -803,6 +801,9 @@ header {
   font-weight: bold;
 }
 
+
+
+
 .selectSection {
   /* display: grid;
   grid-template-columns: repeat(3, 1fr); */
@@ -872,7 +873,7 @@ a {
   width: 100%;
 }
 .footer-wave-path {
-  fill: #fffff2;
+  fill: #fff;
 }
 
 .footer-content {
@@ -1187,4 +1188,106 @@ a {
 /* .testimonialwrapper div div button {
   border-radius: 20px;
 } */
+/* .cardimg01{
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+} */
 
+.cardbggradient1{
+  background-color: #EEEDFF;
+    background-image: linear-gradient(to bottom, #EEEDFF, rgba(255, 255, 255, 1));
+}
+
+.cardbggradient2{
+  background-color: rgba(0, 121, 101, 0.075);
+  background-image: linear-gradient(to bottom, rgba(0, 121, 101, 0.075), rgba(255, 255, 255, 1));
+}
+
+.cardbggradient3{
+  background-color: rgba(248, 99, 65, 0.075);
+  background-image: linear-gradient(to bottom, rgba(248, 99, 65, 0.075), rgba(255, 255, 255, 1));
+}
+
+.coursebtn{
+  width: fit-content;
+    display: flex;
+    gap: .35rem;
+    align-items: center;
+    margin: 1rem 0;
+    border-radius: .25rem;
+    padding: .35rem .6rem;
+    font-size: .8rem;
+    text-transform: uppercase;
+    color: #945FF6;
+    background-color: rgba(148, 95, 246, 0.15);
+}
+
+.coursesbtn01{
+  color: #007965;
+    background-color: rgba(0, 121, 101, 0.15);
+    width: fit-content;
+    display: flex;
+    gap: .35rem;
+    align-items: center;
+    margin: 1rem 0;
+    border-radius: .25rem;
+    padding: .35rem .6rem;
+    font-size: .8rem;
+    text-transform: uppercase;
+}
+
+.coursesbtn02{
+  color: #F86241;
+  background-color: rgba(248, 99, 65, 0.15);
+  width: fit-content;
+  display: flex;
+  gap: .35rem;
+  align-items: center;
+  margin: 1rem 0;
+  border-radius: .25rem;
+  padding: .35rem .6rem;
+  font-size: .8rem;
+  text-transform: uppercase;
+}
+
+.coursesbtn1{
+  background-color: #ceecff;
+  padding: .75rem .15rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  gap: .5rem;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.coursesbtn2{
+  background-color: #2f80ed;
+    padding: .75rem .15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    gap: .5rem;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.check-icon{
+  color:#2f80ed;
+  font-size: 1rem;
+}
+
+.courses_main{
+  display: flex;
+    flex-direction: column;
+    border: 1px solid hsla(0, 0%, 89%, .5);
+    border-radius: .5rem;
+    /* width: 400px; */
+    margin: 2rem 10px 10px;
+    position: relative;
+    box-shadow: 0 0 32px 0 rgba(0, 0, 0, .12);
+}
